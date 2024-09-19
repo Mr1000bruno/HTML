@@ -3,10 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web Básica</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <title>Horario de Clase</title>
 </head>
 <body>
-  <h1 text-align = "center">HORARIO</h1>
-
+    <h1 style="text-align: center;">Horario de Clase</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td>Asignatura 1</td>
+                <td>Asignatura 2</td>
+                <td>Asignatura 3</td>
+                <td>Asignatura 4</td>
+                <td>Asignatura 5</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Asignatura 2</td>
+                <td>Asignatura 3</td>
+                <td>Asignatura 4</td>
+                <td>Asignatura 5</td>
+                <td>Asignatura 1</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Asignatura 3</td>
+                <td>Asignatura 4</td>
+                <td>Asignatura 5</td>
+                <td>Asignatura 1</td>
+                <td>Asignatura 2</td>
+            </tr>
+            <tr>
+                <td>11:00 - 11:20</td>
+                <td colspan="5">Recreo</td>
+            </tr>
+            <tr>
+                <td>11:20 - 12:20</td>
+                <td>Asignatura 4</td>
+                <td>Asignatura 5</td>
+                <td>Asignatura 1</td>
+                <td>Asignatura 2</td>
+                <td>Asignatura 3</td>
+            </tr>
+            <tr>
+                <td>12:20 - 13:20</td>
+                <td>Asignatura 5</td>
+                <td>Asignatura 1</td>
+                <td>Asignatura 2</td>
+                <td>Asignatura 3</td>
+                <td>Asignatura 4</td>
+            </tr>
+            <tr>
+                <td>13:20 - 14:20</td>
+                <td>Asignatura 1</td>
+                <td>Asignatura 2</td>
+                <td>Asignatura 3</td>
+                <td>Asignatura 4</td>
+                <td>Asignatura 5</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
+
